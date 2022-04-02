@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { NavigationBar } from './components/NavigationBar'
-import { LandingImage } from './components/LandingImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <LandingImage />
       <p>{!data ? 'Loading...' : data}</p>
     </>
   )
